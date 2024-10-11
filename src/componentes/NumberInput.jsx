@@ -39,10 +39,10 @@ const NumberInput = () => {
         />
       </label>
 
-      <Resultado operacion={suma} calculo={suma()} />
-      <Resultado operacion={resta} calculo={resta()} />
-      <Resultado operacion={division} calculo={division()} />
-      <Resultado operacion={multiplicacion} calculo={multiplicacion()} />
+      <Resultado operacion="Suma" calculo={suma()} />
+      <Resultado operacion="Resta" calculo={resta()} />
+      <Resultado operacion="Multiplicaicon" calculo={division()} />
+      <Resultado operacion="Division" calculo={multiplicacion()} />
     </>
   );
 };
