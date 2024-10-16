@@ -1,4 +1,4 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,52 @@
 
 .read-the-docs {
   color: #888;
+}*/
+body {
+  background-color: rgb(9, 9, 63);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(185, 202, 255);
+  color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.calculadora {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(60, 75, 171);
+  padding: 3rem;
+  border-radius: 3rem;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input {
+  margin-left: 1rem;
+  background-color: aliceblue;
+  border: 0.1rem rgba(180, 136, 255, 0.441) solid;
+}
+
+span {
+  width: 50%;
+  border-bottom: 6px dotted rgb(60, 75, 171);
 }

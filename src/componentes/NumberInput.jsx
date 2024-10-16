@@ -21,7 +21,7 @@ const NumberInput = () => {
   return (
     <>
       <label htmlFor="">
-        numero 1:
+        Numero 1:
         <input
           name="numero1"
           value={numero1}
@@ -30,7 +30,7 @@ const NumberInput = () => {
         />
       </label>
       <label htmlFor="">
-        numero 2:
+        Numero 2:
         <input
           name="numero2"
           value={numero2}
